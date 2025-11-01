@@ -30,10 +30,7 @@ const Contact = () => {
               <div className="w-10 h-10 rounded-full flex items-center justify-center bg-[#022b1f] shadow-[0_0_12px_#00ff9c22]">
                 <BiPhone className="w-6 h-6 text-[#00ff9c]" />
               </div>
-              <a
-                href="tel: +62 858 2822 0032"
-                className="text-white font-medium"
-              >
+              <a href="tel:+6285828220032" className="text-white font-medium">
                 +62 858 2822 0032
               </a>
             </div>
@@ -100,10 +97,12 @@ const Contact = () => {
           data-aos="fade-left"
         >
           <div>
-            <h3 className="text-xl font-semibold text-white">Let's connect</h3>
+            <h3 className="text-xl font-semibold text-white">
+              Let&apos;s connect
+            </h3>
             <p className="mt-3 text-white/70">
-              If you'd like to work together or ask something quick, click the
-              button below to open your email client.
+              If you&apos;d like to work together or ask something quick, click
+              the button below to open your email client.
             </p>
           </div>
 
