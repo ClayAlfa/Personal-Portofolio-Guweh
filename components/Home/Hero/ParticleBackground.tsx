@@ -15,18 +15,18 @@ export default function ParticlesHero() {
   const [init, setInit] = useState(false);
 
   useEffect(() => {
-    // keep the same init pattern you used before
+    // initialize tsparticles engine
     initParticlesEngine(async (engine) => {
-      // load the slim bundle to keep bundle size smaller
       await loadSlim(engine);
     }).then(() => {
       setInit(true);
     });
   }, []);
 
-  const particlesLoaded = async (container?: Container): Promise<void> => {
-    // optional debug:
-    // console.log("particles loaded:", container);
+  // renamed `container` to `_container` to satisfy ESLint (not used)
+  const particlesLoaded = async (_container?: Container): Promise<void> => {
+    // you can log this for debugging if needed:
+    // console.log("Particles loaded:", _container);
   };
 
   const options: ISourceOptions = useMemo(
@@ -50,7 +50,7 @@ export default function ParticlesHero() {
         },
       },
       particles: {
-        // neon-green palette (a few tints for variety)
+        // Neon-green color palette
         color: {
           value: ["#00ff9c", "#66ffcc", "#bbffda"],
         },

@@ -59,7 +59,7 @@ const Hero: React.FC = () => {
           data-aos-delay="450"
           className="mt-4 text-sm sm:text-lg text-white/80"
         >
-          Hi! I'm AlfaOps — a passionate{" "}
+          Hi! I&apos;m AlfaOps — a passionate{" "}
           <span className="text-[#00ff9c] font-semibold">
             <Typewriter
               options={{
