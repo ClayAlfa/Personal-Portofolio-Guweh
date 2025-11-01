@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+/* ===== Base global adjustments ===== */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  overflow-y: scroll;
+  background-color: #030e09;
+  color: #ffffff;
+  font-family: "Inter", sans-serif;
+}
+
+/* ===== Hilangkan scrollbar sepenuhnya ===== */
+
+/* Chrome, Safari, Edge */
+::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+  display: none;
+}
+
+/* Firefox */
+html {
+  scrollbar-width: none;
+}
+
+/* IE / Edge lama */
+html,
+body {
+  -ms-overflow-style: none;
+}
+
+::selection {
+  background-color: #00ff9c;
+  color: #000000;
+}
+
+* {
+  transition: all 0.2s ease-in-out;
+}
+
+:focus {
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.glow-green {
+  box-shadow: 0 0 25px rgba(0, 255, 156, 0.2);
+}
+.glow-green-strong {
+  box-shadow: 0 0 40px rgba(0, 255, 156, 0.45);
+}
+
+.bg-neon-gradient {
+  background: radial-gradient(circle at 30% 30%, #00ff9c22 0%, #030e09 80%);
+}
