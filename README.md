@@ -170,37 +170,8 @@ For detailed information, check out the `docs/` folder:
 
 ---
 
-## 👨‍💻 Developer Info
-
-| Field | Detail |
-|-------|--------|
-| **Name** | Alma Inna |
-| **NIM** | 202312057 |
-| **Email** | flowerrdaaisy@gmail.com |
-| **Program** | Teknik Informatika |
-| **Institution** | Sekolah Tinggi Teknologi Bontang |
-| **Project Type** | Proyek Ujian Akhir Semester - Pemrograman Web |
-
----
-
-## 📱 Links
-
-| Platform | Link | Status |
-|----------|------|--------|
-| **Live Demo** | Coming Soon | 🔄 |
-| **GitHub** | [Repository](https://github.com) | ✅ |
-| **YouTube** | Coming Soon | 🔄 |
-| **Hosting** | Coming Soon | 🔄 |
-
----
-
 ## 📜 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
-
-<p align="center">
-  <strong>Made with ❤️ by Alma Inna</strong><br>
-  <sub>Last Updated: November 2024</sub>
-</p>
